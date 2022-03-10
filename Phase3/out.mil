@@ -1,0 +1,30 @@
+func main
+. i
+. j
+= i, 0
+: beginloop0
+. __temp__0
+< __temp__0, i, 2
+?:= loopbody0, __temp__0
+:= endloop0
+: loopbody0
+= j, 1
+: beginloop1
+. __temp__1
+<= __temp__1, j, 3
+?:= loopbody1, __temp__1
+:= endloop1
+: loopbody1
+.> j
+. __temp__2
++ __temp__2, j, 1
+= j, __temp__2
+:= beginloop1
+: endloop1
+. __temp__3
++ __temp__3, i, 1
+= i, __temp__3
+:= beginloop0
+: endloop0
+endfunc
+
