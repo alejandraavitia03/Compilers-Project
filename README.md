@@ -2,6 +2,7 @@ CS152 Project - Compiler Design Project
 ===============================================================
 ## Created By:
 Alejandra A. | Duke P.
+
 Our quarter long project for CS150 Compilers class. 
 
 # Phase 1 - Lexical Analyzer Generation Using flex
