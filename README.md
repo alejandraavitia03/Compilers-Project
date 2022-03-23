@@ -3,7 +3,7 @@ CS152 Project - Compiler Design Project
 ## Created By:
 Alejandra A. | Duke P.
 
-Our quarter long project for CS150 Compilers class. 
+Our quarter long project for CS152 Compilers class. 
 
 # Phase 1 - Lexical Analyzer Generation Using flex
   Using the flex tool my team generated a lexical analyzer for a high-level source code language called "MINI-L". Our lexical analyzer takes as input a MINI-L program, parses it, and output the sequence of lexical tokens associated with the program. 
